@@ -1,0 +1,541 @@
+[
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "data:image/jpeg;base64,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",
+      "https://shared.aces.illinois.edu/sites/shared.aces.illinois.edu/files/news/Babadoost_apple026_1.jpg",
+      "https://images.squarespace-cdn.com/content/v1/59cbf998197aeaead99e3780/1557421350086-UX2WRKBTBSB7P2KUXIX8/pests-apple-scab-opt.jpg?format=1500w"
+    ],
+    "Class": "0 Apple-Apple_Scrab",
+    "Name": "Apple Scrab",
+    "FruitName": "Apple",
+    "Description": "Apple scab is a fungal disease that affects the leaves and fruit of apple trees. The disease causes brown or black discoloration and lesions on the leaves, which can lead to defoliation. In severe cases, the fruit may also be affected, resulting in unsightly scabby lesions. The disease is most commonly seen in areas with cool, wet springs.",
+    "Cure": "Treatment for apple scab typically involves the use of fungicides. These fungicides can be applied as a preventive measure before the onset of the disease, or as a curative treatment after the disease has been detected. In addition to fungicides, pruning and destroying infected leaves and fruit can also help to control the spread of the disease. Cultural practices such as good sanitation, proper irrigation and fertilization, and selecting disease-resistant cultivars can also be helpful in managing apple scab.",
+    "Medications": [
+      "Chlorothalonil",
+      "Myclobutanil",
+      "Copper fungicides",
+      "Sulfur fungicides"
+    ],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Water the tree regularly, especially during dry spells. Apple trees need about 1 inch of water per week.",
+      "Fertilize the tree in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://ipm.missouri.edu/MEG/2020/6/blackRotApple-MW/blackRotLesionsApple.jpg",
+      "https://ipm.missouri.edu/MEG/2019/10/bitterRot/bitterRotApple.jpg",
+      "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    ],
+    "Class": "1 Apple-Back_Rot",
+    "Name": "Apple Back Rot",
+    "FruitName": "Apple",
+    "Description": "Apple Back Rot is a fungal disease that affects the fruit of apple trees. The disease causes sunken, brown rot on the fruit, usually starting at the blossom end. The rot may then spread throughout the fruit, causing it to become soft and mushy. Back rot is most severe in warm, humid weather and is often associated with insect damage, sunscald, or other fruit injuries.",
+    "Cure": "Control of apple back rot begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the orchard. The use of fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at bloom and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of back rot.",
+    "Medications": [
+      "chlorothalonil",
+      "thiophanate-methyl",
+      "mancozeb",
+      "potassium bicarbonate"
+    ],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Water the tree regularly, especially during dry spells. Apple trees need about 1 inch of water per week.",
+      "Fertilize the tree in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/07/what_to_know_apples_green_red_1296x728_header-1024x575.jpg?w=1155&h=1528",
+      "https://nenow.in/wp-content/uploads/2022/11/Types-of-apples-you-must-eat-1.jpg",
+      "https://m.media-amazon.com/images/I/61IX8diqp+L._SL1024_.jpg"
+    ],
+    "Class": "2 Apple-Healthy",
+    "Name": "Healthy Apple",
+    "FruitName": "Apple",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Apple tree",
+    "Medications":[],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Water the tree regularly, especially during dry spells. Apple trees need about 1 inch of water per week.",
+      "Fertilize the tree in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://healthwire.pk/wp-content/uploads/2022/07/benefits-of-cherry.jpg",
+      "https://nurserynisarga.in/wp-content/uploads/2020/09/istockphoto-165891209-170667a.jpg",
+      "https://treegrowing.tcv.org.uk/wp-content/uploads/2019/09/wild-cherry-leaves-740x555.jpg"
+    ],
+    "Class": "3 Cherry-Healthy",
+    "Name": "Healthy Cherry",
+    "FruitName": "Cherry",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Cherry tree",
+    "Medications":[],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Water the tree regularly, especially during dry spells. Cherry trees need about 1 inch of water per week.",
+      "Harvest the cherries when they are ripe. This usually occurs in mid to late summer, depending on the variety of cherry tree."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://www.swallowtailgardenseeds.com/gardens/tips-and-lists/powdery-mildew-on-calendula.jpg",
+      "https://gardenerspath.com/wp-content/uploads/2020/09/How-to-Treat-Powdery-Mildew-Naturally-FB.jpg",
+      "https://gardenerspath.com/wp-content/uploads/2020/09/Powdery-Mildew-on-a-Leaf-Close-Up.jpg"
+    ],
+    "Class": "4 Cherry-Powdery_mildew",
+    "Name": "Cherry Powdery Mildew",
+    "FruitName": "Cherry",
+    "Description": "Cherry powdery mildew is a fungal disease that affects the leaves, twigs, and fruit of cherry trees. The disease is characterized by a white, powdery growth on the surface of the leaves and fruit. As the disease progresses, leaves may become distorted and may turn yellow or brown. In severe cases, the fruit may be deformed and may not mature properly.",
+    "Cure": "Control of cherry powdery mildew begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the orchard. The use of fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at bloom and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of powdery mildew. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce powdery mildew development.",
+    "Medications": [
+      "Myclobutanil",
+      "Sulfur",
+      "Potassium bicarbonate",
+      "Tebuconazole"
+    ],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Water the tree regularly, especially during dry spells. Cherry trees need about 1 inch of water per week.",
+      "Harvest the cherries when they are ripe. This usually occurs in mid to late summer, depending on the variety of cherry tree."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://cdn.britannica.com/36/167236-050-BF90337E/Ears-corn.jpg",
+      "https://www.canr.msu.edu/contentAsset/image/3d342d41-6252-4abf-b7fe-a30ba2395a7f/fileAsset/filter/Resize,Jpeg/resize_w/500/jpeg_q/80",
+      "https://t3.ftcdn.net/jpg/03/20/27/14/360_F_320271479_Ri97pdxM2CoudhSzVGEr5G5Vas1ke9ww.jpg"
+    ],
+    "Class": "5 Corn-Healthy",
+    "Name": "Healthy Corn",
+    "FruitName": "Corn",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Corn",
+    "Medications":[],
+    "Maintaining": [
+      "Prepare the soil by tilling and adding any necessary amendments, such as fertilizer or lime, to ensure that the soil is at the correct pH level and has adequate nutrients for the corn to grow.",
+      "Plant the corn seeds at the correct time for your area, typically in the spring when the soil has warmed up to at least 50-55 F.",
+      "Corn requires a moderate amount of Nitrogen, Phosphorus and Potassium to grow well, which can be applied through fertilizer or compost."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sporulation_on_leaf.JPG/220px-Sporulation_on_leaf.JPG",
+      "https://live.staticflickr.com/4136/4886729066_b983fd3347_b.jpg",
+      "https://assets.syngenta.ca/images/pest/125/ca2020_northern_corn_leaf_blight_2.jpg"
+    ],
+    "Class": "6 Corn-Northern_Leaf_Blight",
+    "Name": "Corn Northern Leaf Blight",
+    "FruitName": "Corn",
+    "Description": "Corn Northern Leaf Blight is a fungal disease that affects the leaves of corn plants. The disease is characterized by large, dark-colored lesions on the leaves, often with a characteristic “frog-eye” pattern. The lesions can start out as small, water-soaked spots, but will eventually expand and become necrotic. In severe cases, the disease can cause significant defoliation and may reduce the yield of the crop.",
+    "Cure": "Control of corn northern leaf blight begins with planting disease-resistant cultivars. In addition, crop rotation, proper fertilization and irrigation, and destroying infected plant debris can help to reduce the incidence of the disease. Fungicides can also be used as a preventive measure, however, they are not effective once symptoms have developed. Properly timing fungicide applications is critical to achieving good control of northern leaf blight. Applications should be made before the onset of the disease and continue at regular intervals throughout the growing season.",
+    "Medications": [
+      "Azoxystrobin",
+      "Propiconazole",
+      "Tebuconazole",
+      "Trifloxystrobin"
+    ],
+    "Maintaining": [
+      "Prepare the soil by tilling and adding any necessary amendments, such as fertilizer or lime, to ensure that the soil is at the correct pH level and has adequate nutrients for the corn to grow.",
+      "Plant the corn seeds at the correct time for your area, typically in the spring when the soil has warmed up to at least 50-55 F.",
+      "Corn requires a moderate amount of Nitrogen, Phosphorus and Potassium to grow well, which can be applied through fertilizer or compost."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://www.gardeningknowhow.com/wp-content/uploads/2013/09/black-rot-grape.jpg",
+      "https://extension.okstate.edu/programs/digital-diagnostics/plant-diseases/site-files/black-rot-of-grapes/blackrot.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrEsGmv7-zazU_2DKAjys8c5Ant1NCFzCHTbZU8KTE_CYGuAxsuKobT9aKC4hSrwECng&usqp=CAU"
+    ],
+    "Class": "7 Grape-Black_rot",
+    "Name": "Grape Black Rot",
+    "FruitName": "Grape",
+    "Description": "Grape Black Rot is a fungal disease that affects the fruit and leaves of grapevines. The disease is characterized by dark-colored, sunken cankers on the fruit, twigs, and leaves. As the disease progresses, the fruit will become soft and mushy, and may eventually drop from the vine. Black rot can cause significant yield loss, and can also make grapes unmarketable.",
+    "Cure": "Control of grape black rot begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the vineyard. The use of fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at bloom and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of black rot. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce black rot development.",
+    "Medications": [
+      "Myclobutanil",
+      "Cyprodinil",
+      "Pyrimethanil",
+      "Fenarimol"
+    ],
+    "Maintaining": [
+      "Prune the vine in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Fertilize the vine in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer.",
+      "Harvest the grapes when they are ripe. This usually occurs in late summer or early fall, depending on the variety of grapevine."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://www.thespruceeats.com/thmb/l1_lV7wgpqRArWBwpG3jzHih_e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-are-grapes-5193263-hero-01-80564d77b6534aa8bfc34f378556e513.jpg",
+      "https://bl-i.thgim.com/public/incoming/iraavk/article65658122.ece/alternates/FREE_1200/IMG_IMG_agri-pg-bl13-puG_2_1_SA9DIM07.jpg",
+      "http://photos.demandstudios.com/getty/article/110/75/81175960.jpg"
+    ],
+    "Class": "8 Grape-Healthy",
+    "Name": "Healthy Grape",
+    "FruitName": "Grape",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Grape",
+    "Medications":[],
+    "Maintaining": [
+      "Prune the vine in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Fertilize the vine in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer.",
+      "Harvest the grapes when they are ripe. This usually occurs in late summer or early fall, depending on the variety of grapevine."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://ohioline.osu.edu/sites/ohioline/files/imce/Plant_Pathology/PLNTPTH-CER-02_Figure_1.png",
+      "https://cropwatch.unl.edu/image/Corn-southern-rust-F1%20%281%29.jpg",
+      "https://ipcm.wisc.edu/wp-content/uploads/sites/54/2016/07/Corn-Common-Rust-1024x768.jpg"
+    ],
+    "Class": "9 Corn-Common_Rust",
+    "Name": "Corn Common Rust",
+    "FruitName": "Corn",
+    "Description": "Corn Common Rust is a fungal disease that affects the leaves of corn plants. The disease is characterized by small, reddish-brown pustules on the upper and lower surfaces of the leaves. As the disease progresses, the pustules will become more numerous and may eventually cover large areas of the leaf. In severe cases, the disease can cause significant defoliation and may reduce the yield of the crop.",
+    "Cure": "Control of corn common rust begins with planting disease-resistant cultivars. In addition, crop rotation, proper fertilization and irrigation, and destroying infected plant debris can help to reduce the incidence of the disease. Fungicides can also be used as a preventive measure, however, they are not effective once symptoms have developed. Properly timing fungicide applications is critical to achieving good control of common rust. Applications should be made before the onset of the disease and continue at regular intervals throughout the growing season.",
+    "Medications": [
+      "Azoxystrobin",
+      "Propiconazole",
+      "Tebuconazole",
+      "Trifloxystrobin"
+    ],
+    "Maintaining": [
+      "Prepare the soil by tilling and adding any necessary amendments, such as fertilizer or lime, to ensure that the soil is at the correct pH level and has adequate nutrients for the corn to grow.",
+      "Plant the corn seeds at the correct time for your area, typically in the spring when the soil has warmed up to at least 50-55 F.",
+      "Corn requires a moderate amount of Nitrogen, Phosphorus and Potassium to grow well, which can be applied through fertilizer or compost."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://3.bp.blogspot.com/-XGLOgKH5coc/WXuQuFcacuI/AAAAAAAAGsw/mhg1YipY1r4H-SQk3CXFBQ1zznSkeegUwCLcBGAs/w1200-h630-p-k-no-nu/1283_Measles.JPG ",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/ESCA_Blattsymptom_1.JPG",
+      "http://progressivecrop.com/wp-content/uploads/2019/09/Photo-2.jpg"
+    ],
+    "Class": "10 Grape-Black_Measles",
+    "Name": "Grape Black Measles",
+    "FruitName": "Grape",
+    "Description": "Grape Black Measles is a fungal disease that affects the fruit and leaves of grapevines. The disease is characterized by small, black, raised spots on the fruit and leaves. As the disease progresses, the spots will become more numerous and may eventually cover large areas of the fruit and leaves. Black Measles can cause significant yield loss, and can also make grapes unmarketable.",
+    "Cure": "Control of grape black measles begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the vineyard. The use of fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at bloom and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of black measles. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce black measles development.",
+    "Medications": [
+      "Myclobutanil",
+      "Sulfur",
+      "Tebuconazole",
+      "Fenarimol"
+    ],
+    "Maintaining": [
+      "Prune the vine in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Fertilize the vine in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer.",
+      "Harvest the grapes when they are ripe. This usually occurs in late summer or early fall, depending on the variety of grapevine."
+    ]
+  },
+  {
+    "Type" : "Bacterial",
+    "Pics" : [
+      "https://www.gardeningknowhow.com/wp-content/uploads/2013/07/citrus-greening.jpg",
+      "https://acs-h.assetsadobe.com/is/image//content/dam/cen/97/23/WEB/09723-cover-leavescxd.jpg/?$responsive$&wid=700&qlt=90,0&resMode=sharp2",
+      "https://thumbs.dreamstime.com/b/citrus-orange-fruits-infected-citrus-greening-huanglongbing-hlb-citrus-orange-fruit-heavely-infected-huanglongbing-235445438.jpg"
+    ],
+    "Class": "11 Orange-Haunglongbing",
+    "Name": "Orange Haunglongbing",
+    "FruitName": "Orange",
+    "Description": "Haunglongbing (HLB) is a bacterial disease that affects citrus trees, including oranges. The disease is characterized by a gradual decline in tree health, including yellowing of leaves, small and misshapen fruit, and a decline in fruit production. The disease is spread by the Asian citrus psyllid, a tiny insect that feeds on the leaves and shoots of citrus trees. HLB can eventually lead to the death of the tree if left untreated.",
+    "Cure": "Control of Haunglongbing is challenging, but a combination of control measures can help to manage the disease. This includes the use of pesticides to control the Asian citrus psyllid, the use of disease-tolerant or resistant rootstock, proper tree nutrition and irrigation, and regular monitoring of the tree for symptoms of the disease. There is no cure for HLB once a tree is infected, so it is important to take steps to prevent the spread of the disease to healthy trees.",
+    "Medications": [
+      "Imidacloprid",
+      "Oxathiapiprolin",
+      "Fludioxonil",
+      "Famoxadone"
+    ],
+    "Maintaining": [
+      "Prune the tree in late winter or early spring before new growth appears. This will encourage healthy new growth and improve fruit production.",
+      "Fertilize the tree in the spring with a balanced fertilizer, such as a 10-10-10 or 12-12-12 fertilizer.",
+      "Harvest the oranges when they are ripe. This usually occurs in mid to late winter, depending on the variety of orange tree."
+    ]
+  },
+  {
+    "Type" : "Bacterial",
+    "Pics" : [
+      "https://www.canr.msu.edu/uploads/images/4-12%20Bacterial%20spot%20on%20peaches%20and%20nectarinesBILL%203.jpg",
+      "https://peachscout.ca.uky.edu/files/styles/panopoly_image_original/public/3a_bacterial_ls_u_mazzuchi_universita_di_bologna_bgwd_0162027_crpd_1.jpg?itok=LkAp80_5",
+      "https://peachscout.ca.uky.edu/files/styles/panopoly_image_original/public/3b_bacterial_leaf_spot_strang_05hort009js030_0.jpg?itok=yq7f44yi"
+    ],
+    "Class": "12 Peach-Bacterial_Spot",
+    "Name": "Peach Bacterial Spot",
+    "FruitName": "Peach",
+    "Description": "Peach Bacterial Spot is a bacterial disease that affects the leaves, fruit, and twigs of peach trees. The disease is characterized by small, dark-colored, raised spots on the leaves and fruit. As the disease progresses, the spots will become more numerous and may eventually cause defoliation. Bacterial spot can also cause the fruit to become unmarketable.",
+    "Cure": "Control of peach bacterial spot begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the orchard. The use of antibiotics and copper-based fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at bud break and continuing until harvest. Properly timing antibiotic and copper applications is critical to achieving good control of bacterial spot. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce bacterial spot development.",
+    "Medications": [
+      "Copper hydroxide",
+      "Copper oxychloride",
+      "Copper sulfate"
+    ],
+    "Maintaining": [
+      "Make sure to provide adequate space between rows, to allow proper air circulation and sunlight penetration.",
+      "Training and supporting the tree to grow on a trellis or wire system is important, to ensure the fruit is off the ground and easy to harvest.",
+      "Once the tree is mature enough it is important to thin the peaches so the remaining fruit can grow larger and have better quality."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://m.media-amazon.com/images/I/81ndGlhW7AS._SL1400_.jpg",
+      "https://cdn.britannica.com/38/125438-004-9FF41186/Fruit-peach-tree.jpg",
+      "https://cdn.britannica.com/60/171660-050-850EC136/Peaches-tree.jpg"
+    ],
+    "Class": "13 Peach-Healthy",
+    "Name": "Healthy Peach",
+    "FruitName": "Peach",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Grape",
+    "Medications":[],
+    "Maintaining": [
+      "Make sure to provide adequate space between rows, to allow proper air circulation and sunlight penetration.",
+      "Training and supporting the tree to grow on a trellis or wire system is important, to ensure the fruit is off the ground and easy to harvest.",
+      "Once the tree is mature enough it is important to thin the peaches so the remaining fruit can grow larger and have better quality."
+    ]
+  },
+  {
+    "Type" : "Bacterial",
+    "Pics" : [
+      "https://peppergeek.com/wp-content/uploads/2020/08/Pepper-Plant-Leaf-Spot.jpg",
+      "https://gardenforindoor.com/wp-content/uploads/2021/10/Bacterial-Leaf-Spot-on-Pepper.jpg",
+      "https://u.osu.edu/miller.769/files/2014/07/PepperCanker-1-slua8w.jpg"
+    ],
+    "Class": "14 PepperBell-Bacterial_Spot",
+    "Name": "Pepper Bell Bacterial Spot",
+    "FruitName": "Pepper Bell",
+    "Description": "Pepper Bell Bacterial Spot is a bacterial disease that affects the leaves and fruit of pepper plants. The disease is characterized by small, dark-colored, raised spots on the leaves and fruit. As the disease progresses, the spots will become more numerous and may eventually cause defoliation. Bacterial spot can also cause the fruit to become unmarketable.",
+    "Cure": "Control of Pepper Bell bacterial spot begins with good cultural practices. This includes selecting disease-resistant cultivars, proper pruning, and maintaining good sanitation in the field. The use of antibiotics and copper-based fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at seedling stage and continuing until harvest. Properly timing antibiotic and copper applications is critical to achieving good control of bacterial spot. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce bacterial spot development.",
+    "Medications": [
+      "Copper hydroxide",
+      "Copper oxychloride",
+      "Copper sulfate",
+      "Streptomycin"
+    ],
+    "Maintaining": [
+      "Be sure to harvest the pepperbells regularly to encourage the plant to produce more fruit.",
+      "Keep in mind that pepperbell plants prefer cooler weather and may not do well in hot and humid climates.",
+      "Fertilize the plant with a balanced fertilizer every two weeks during the growing season."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://previews.123rf.com/images/ideation90/ideation901702/ideation90170200343/72747658-sweet-pepper-bell-pepper-on-tree-in-garden.jpg",
+      "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/1/27/1/shutterstock_1718379988.jpg.rend.hgtvcom.616.411.suffix/1643327070208.jpeg",
+      "https://www.almanac.com/sites/default/files/styles/large/public/image_nodes/bell_peppers_dleonis_gettyimages.jpg?itok=Z6m3cDpS"
+    ],
+    "Class": "15 PepperBell-Healthy",
+    "Name": "Healthy PepperBell",
+    "FruitName": "Pepper Bell",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Grape",
+    "Medications":[],
+    "Maintaining": [
+      "Be sure to harvest the pepperbells regularly to encourage the plant to produce more fruit.",
+      "Keep in mind that pepperbell plants prefer cooler weather and may not do well in hot and humid climates.",
+      "Fertilize the plant with a balanced fertilizer every two weeks during the growing season."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://www.ndsu.edu/agriculture/sites/default/files/2022-07/potato-early-blight-lesions.jpeg",
+      "https://www.ndsu.edu/agriculture/sites/default/files/2022-07/potato-early-blight-lesions.jpeg",
+      "https://www.ndsu.edu/agriculture/sites/default/files/2022-07/potato-early-blight-lesions14.jpeg"
+    ],
+    "Class": "16 Potato-Early_Blight",
+    "Name": "Potato Early Blight",
+    "FruitName": "Potato",
+    "Description": "Potato Early Blight is a fungal disease that affects the leaves and tubers of potato plants. The disease is characterized by small, dark-colored spots on the leaves that can eventually expand and cause defoliation. Lesions may also develop on the tubers, causing them to become unmarketable. Early Blight is most severe during warm, wet weather and is often associated with insect damage or other injuries.",
+    "Cure": "Control of potato early blight begins with good cultural practices. This includes crop rotation, proper fertilization and irrigation, and destroying infected plant debris can help to reduce the incidence of the disease. The use of fungicides can also be an effective means of controlling the disease. Applications should be made at regular intervals throughout the growing season, starting at early stages of growth and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of early blight. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce early blight development.",
+    "Medications": [
+      "Chlorothalonil",
+      "Mancozeb",
+      "Copper fungicides",
+      "Azoxystrobin"
+    ],
+    "Maintaining": [
+      "Choose a suitable site: potatoes prefer a well-drained soil that is rich in organic matter, with a pH between 4.8 and 6.5.",
+      "Plant seed potatoes: potatoes are grown from seed potatoes, which are small tubers that are specifically grown for planting. These can be purchased from seed potato suppliers.",
+      "Plant at the right time: potatoes should be planted when the soil has warmed up to at least 50°F (10°C) and the risk of frost has passed."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://www.apsnet.org/edcenter/disandpath/oomycete/pdlessons/Article%20Images/LateBlight03.jpg",
+      "https://www.ndsu.edu/agriculture/sites/default/files/2022-05/Figure_7_%28Gudmestad%29.jpg",
+      "https://www.digitrac.in/pub/media/magefan_blog/Late_blight_of_potato.jpg"
+    ],
+    "Class": "17 Potato-Late_Blight",
+    "Name": "Potato Late Blight",
+    "FruitName": "Potato",
+    "Description": "Potato Late Blight is a fungal disease caused by the oomycete Phytophthora infestans, that affects the leaves and tubers of potato plants. The disease is characterized by large, irregular, dark-colored lesions on the leaves and stem, that can cause severe defoliation. Lesions may also develop on the tubers, causing them to become unmarketable and increasing the risk of secondary infections. The disease is favored by warm and humid weather and is often spread by spores carried by wind and rain.",
+    "Cure": "Control of potato late blight begins with planting certified seed potatoes or seed pieces free of the pathogen. In addition, crop rotation, proper fertilization and irrigation, and destroying infected plant debris can help to reduce the incidence of the disease. The use of fungicides, especially those effective against Phytophthora infestans, should be applied at regular intervals throughout the growing season, starting at early stages of growth and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of late blight. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce late blight development.",
+    "Medications": [
+      "Mefenoxam",
+      "Metalaxyl-M",
+      "Mancozeb"
+    ],
+    "Maintaining": [
+      "Choose a suitable site: potatoes prefer a well-drained soil that is rich in organic matter, with a pH between 4.8 and 6.5.",
+      "Plant seed potatoes: potatoes are grown from seed potatoes, which are small tubers that are specifically grown for planting. These can be purchased from seed potato suppliers.",
+      "Plant at the right time: potatoes should be planted when the soil has warmed up to at least 50°F (10°C) and the risk of frost has passed."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://plantix.net/en/library/assets/custom/crop-images/potato.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckrla2RovZffyi7rLznIW0qTOIdWhXowugDS17xReXg9z8ytTZP9EBoGATzZHDQbD0X4&usqp=CAU",
+      "https://media.sciencephoto.com/image/e7701830/800wm"
+    ],
+    "Class": "18 Potato-Healthy",
+    "Name": "Healthy Potato",
+    "FruitName": "Potato",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Potato",
+    "Medications":[],
+    "Maintaining": [
+      "Choose a suitable site: potatoes prefer a well-drained soil that is rich in organic matter, with a pH between 4.8 and 6.5.",
+      "Plant seed potatoes: potatoes are grown from seed potatoes, which are small tubers that are specifically grown for planting. These can be purchased from seed potato suppliers.",
+      "Plant at the right time: potatoes should be planted when the soil has warmed up to at least 50°F (10°C) and the risk of frost has passed."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://5.imimg.com/data5/DH/GP/MY-25230711/strawberry-plant-500x500.jpg",
+      "https://www.thespruce.com/thmb/ZSwGguD8kcw05EQNLhg7k3dwS4s=/2066x0/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberryplant-GettyImages-123533002-5b198b33eb97de0036be58ae-d5982c5730984563a32598ee2a96fe3e.jpg",
+      "https://www.theenglishgarden.co.uk/wp-content/uploads/2019/07/shutterstock_56673922.jpg"
+    ],
+    "Class": "19 Strawberry-Healthy",
+    "Name": "Healthy Strawberry",
+    "FruitName": "Strawberry",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of StrawBerries",
+    "Medications":[],
+    "Maintaining": [
+      "Choose a suitable site: strawberries prefer well-drained soil that is rich in organic matter, with a pH between 5.5 and 6.5.",
+      "Space plants properly: strawberries should be planted 18-24 inches apart in rows that are 3-4 feet apart.",
+      "Fertilize properly: strawberries should be fertilized with a balanced fertilizer when the plants are about 6 inches tall."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "http://strawberryscout.ca.uky.edu/files/styles/panopoly_image_original/public/8b_strawberry_leaf_scorch_strang_uk_09hort002js309.jpg?itok=ybBQ4x7x",
+      "https://apps.extension.umn.edu/garden/diagnose/plant/images/strawberry/diseases/leafscorch3_600px.jpg",
+      "https://www.gardeningknowhow.com/wp-content/uploads/2018/09/strawberry-scorch.jpg"
+    ],
+    "Class": "20 Strawberry-LeafScorch",
+    "Name": "Strawberry Leaf Scorch",
+    "FruitName": "Strawberry",
+    "Description": "Strawberry Leaf Scorch is a disease caused by the fungus Diplocarpon earliana. This disease affects the leaves of strawberry plants and characterized by small, red-brown, circular spots on the leaves. As the disease progresses, the spots will become more numerous and may eventually cause defoliation. Leaf scorch can also cause a reduction in fruit yield and quality.",
+    "Cure": "Control of strawberry leaf scorch begins with planting disease-resistant cultivars. Maintaining good sanitation and removing and destroying infected leaves and debris can help to reduce the incidence of the disease. The use of fungicides, especially those effective against Diplocarpon earliana, should be applied at regular intervals throughout the growing season, starting at early stages of growth and continuing until harvest. Properly timing fungicide applications and avoiding overhead irrigation can also help to reduce leaf scorch development.",
+    "Medications": [
+      "Chlorothalonil",
+      "Copper-based fungicides",
+      "Mancozeb",
+      "Propiconazole"
+    ],
+    "Maintaining": [
+      "Choose a suitable site: strawberries prefer well-drained soil that is rich in organic matter, with a pH between 5.5 and 6.5.",
+      "Space plants properly: strawberries should be planted 18-24 inches apart in rows that are 3-4 feet apart.",
+      "Fertilize properly: strawberries should be fertilized with a balanced fertilizer when the plants are about 6 inches tall."
+    ]
+  },
+  {
+    "Type" : "Healthy",
+    "Pics" : [
+      "https://i0.wp.com/plantcraft.in/wp-content/uploads/2020/12/003d.jpg?fit=1200%2C1200&ssl=1",
+      "https://gardening.org/wp-content/uploads/2021/03/Healthy-Tomato-Plant.jpg",
+      "https://www.ruralsprout.com/wp-content/uploads/2022/09/no-dig-tomatoes-hero.jpg"
+    ],
+    "Class": "21 Tomato-Healthy",
+    "Name": "Healthy Tomato",
+    "FruitName": "Tomato",
+    "Cure":"",
+    "Description": "The Leaf seems to be Healthy check bellow for general tips for taking care of Grape",
+    "Medications":[],
+    "Maintaining": [
+      "Choose a suitable site: tomatoes prefer well-drained soil that is rich in organic matter, with a pH between 6.0 and 7.0.",
+      "Plant at the right time: tomatoes should be planted after the last frost date and when the soil has warmed up to at least 50°F (10°C).",
+      "Fertilize properly: tomatoes should be fertilized with a balanced fertilizer when the plants are about 6 inches tall."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://plant-pest-advisory.rutgers.edu/wp-content/uploads/2015/07/Leaf-mold3.jpg",
+      "https://www.ctahr.hawaii.edu/uhmg/faq/FAQ-img/large/top-leaf-mold-Fulva-fulvea-WN.jpg",
+      "https://veggiescout.ca.uky.edu/files/styles/panopoly_image_original/public/43_tomato_leaf_mold.jpg?itok=dB9mrcvZ"
+    ],
+    "Class": "22 Tomato-LeafMold",
+    "Name": "Tomato Leaf Mold",
+    "FruitName": "Tomato",
+    "Description": "Tomato Leaf Mold is a fungal disease caused by the fungus Fulvia fulva. This disease affects the leaves of tomato plants and is characterized by small, yellowish-brown spots that appear on the leaves, stems and fruit of the plant. As the disease progresses, the spots will enlarge and become covered with a grayish-white mold, which can cause leaf yellowing and defoliation. Fruit may become unmarketable due to the presence of dark, sunken areas on the fruit surface.",
+    "Cure": "Control of tomato leaf mold begins with planting disease-resistant cultivars. Maintaining good sanitation, proper fertilization and irrigation, and removing and destroying infected leaves and debris can help to reduce the incidence of the disease. The use of fungicides, especially those effective against Fulvia fulva, should be applied at regular intervals throughout the growing season, starting at early stages of growth and continuing until harvest. Properly timing fungicide applications and promoting good air circulation within the canopy can also help to reduce leaf mold development.",
+    "Medications": [
+      "Chlorothalonil",
+      "Copper-based fungicides",
+      "Mancozeb",
+      "Propiconazole"
+    ],
+    "Maintaining": [
+      "Choose a suitable site: tomatoes prefer well-drained soil that is rich in organic matter, with a pH between 6.0 and 7.0.",
+      "Plant at the right time: tomatoes should be planted after the last frost date and when the soil has warmed up to at least 50°F (10°C).",
+      "Fertilize properly: tomatoes should be fertilized with a balanced fertilizer when the plants are about 6 inches tall."
+    ]
+  },
+  {
+    "Type" : "Fungal",
+    "Pics" : [
+      "https://www.gardeningknowhow.com/wp-content/uploads/2021/06/tomato-is-ill-with-phytophthora.jpg",
+      "https://gardenerspath.com/wp-content/uploads/2021/07/Identify-and-Treat-Late-Blight-on-Tomatoes-FB.jpg",
+      "https://www.gardeners.com/globalassets/articles/gardening/content/7262-early.jpg?$staticlink$"
+    ],
+    "Class": "23 Tomato-LateBlight",
+    "Name": "Tomato Late Blight",
+    "FruitName": "Tomato",
+    "Description": "Tomato Late Blight is a fungal disease caused by the oomycete Phytophthora infestans, that affects the leaves, stems and fruit of tomato plants. The disease is characterized by large, irregular, dark-colored lesions on the leaves and stem, that can cause severe defoliation. Lesions may also develop on the fruit, causing them to become unmarketable. The disease is favored by warm and humid weather and is often spread by spores carried by wind and rain.",
+    "Cure": "Control of tomato late blight begins with planting disease-free seedlings or seed, and using certified seedlings. In addition, crop rotation, proper fertilization and irrigation, and removing and destroying infected leaves and debris can help to reduce the incidence of the disease. The use of fungicides, especially those effective against Phytophthora infestans, should be applied at regular intervals throughout the growing season, starting at early stages of growth and continuing until harvest. Properly timing fungicide applications is critical to achieving good control of late blight. In addition, avoiding overhead irrigation and promoting good air circulation within the canopy can also help to reduce late blight development.",
+    "Medications": [
+      "Mefenoxam",
+      "Metalaxyl-M",
+      "Chlorothalonil",
+      "Copper-based fungicides"
+    ],
+    "Maintaining": [
+      "Choose a suitable site: tomatoes prefer well-drained soil that is rich in organic matter, with a pH between 6.0 and 7.0.",
+      "Plant at the right time: tomatoes should be planted after the last frost date and when the soil has warmed up to at least 50°F (10°C).",
+      "Fertilize properly: tomatoes should be fertilized with a balanced fertilizer when the plants are about 6 inches tall."
+    ]
+  },
+  {
+    "Type" : "",
+    "Pics" : [],
+    "Class": "24 Not- A-Crop",
+    "Name": "Not A crop !!",
+    "FruitName": "",
+    "Description": "",
+    "Cure": "",
+    "Medications": [],
+    "Maintaining": []
+  }
+]
